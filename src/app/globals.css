@@ -1472,13 +1472,6 @@ img {
   color: #424242;
 }
 
-@media (hover: hover) {
-  .btn-view-all:hover {
-    background: var(--theme-golden-hover);
-    transform: translateY(-2px);
-  }
-}
-
 /* --- MOBILE SPECIFIC (Max 425px) --- */
 @media (max-width: 425px) {
 
