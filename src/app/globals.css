@@ -1,6 +1,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -2161,4 +2165,10 @@ img {
 }
 .slideInDown {
   animation: slideInFade 0.8s ease forwards;
+}
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+  height: 12rem !important;
+  width: 6px !important;
 }

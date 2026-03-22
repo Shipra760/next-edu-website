@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "jquery": "^4.0.0",
     "next": "16.1.6",
+    "owl.carousel": "^2.3.4",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-fast-marquee": "^1.6.5",
+    "swiper": "^12.1.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
